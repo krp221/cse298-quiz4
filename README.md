@@ -101,3 +101,13 @@ f-score = 0
 ## Question 3
 
 List out the cells that represent the shortest path you found above. Then list the commands that would need to be sent to the robot to follow this path. The robot in question moves perfectly without any error, and reponds to two commands: it can either move forward a specified number of cells with `move(cells)`, or it can turn with `turn(radians)`. The robot should end at the goal the same direction at which it faced originally.
+
+(assuming we move after finding the shortest path as opposed to moving at the same time we find the shortest path)
+1) (3,3) -> (5,1)
+turn (7pi/4)
+move(2)
+
+2) (5,1) -> (12,1)
+turn(pi/4)
+move(7)
+
