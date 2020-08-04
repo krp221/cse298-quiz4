@@ -7,6 +7,7 @@ Make at least 1 commit per question.
 ## Question 1
 
 What is the difference between Dijkstra's Algorithm and A*. Why would one use Dijkstra's over A* and vice versa?
+Dijkstra's Algorithm first goes to the path with the lowest cost neighbor and continues to do so until it reaches its final goal node. It will go back to the original node and repeat the process of finding the lowest cost, but with its second lowest cost neighbor to go through each path completely. It goes through every single path until it finds that the cost is the lowest compared to all other paths. A* uses a heuristic function, such as giving priority to nodes with smaller distances as well as calculating the Manhattan distance. One may use Dijkstra's over A* if funds are low, since A* is more expensive to use for computation, or if path is not specific. One may use A* if timing is limited for computation/calculation, or if movement is only lateral. 
 
 ## Question 2
 
